@@ -58,3 +58,6 @@
 ##### sehingga hilang dari ku segala kekahwatiran
 ##### Melihat mu telah dalam ikatan Pernikahan
 ##### '''
+##### '''
+##### .
+##### Hamba Allah, Ramadhan 1439H
