@@ -1,9 +1,3 @@
-; Copyright (C) 2006 - 2014 MikeOS Developers
-; http://mikeos.sourceforge.net/write-your-own-os.html
-;
-; Isi Doa Copyright (C) 2018 Suratku
-
-
 BITS 16
 
 start:
@@ -83,3 +77,5 @@ baris_baru:		; Fungsi untuk pindah ke baris baru
     dw 0xAA55			; Standard PC boot signature
 
 
+; Bootloader dari:
+; http://mikeos.sourceforge.net/write-your-own-os.html
