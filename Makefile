@@ -2,9 +2,8 @@ kernel:
 	nasm -f bin -o doaku.bin doaku.asm
 
 clean:
-	touch a~
-	rm *~
-	rm doaku.bin
+	rm -f *~
+	rm -f doaku.bin
 
 run:
 	clear
