@@ -1,7 +1,7 @@
 ; Copyright (C) 2006 - 2014 MikeOS Developers
 ; http://mikeos.sourceforge.net/write-your-own-os.html
 ;
-; Isi Puisi Copyright (C) 2018 Suratku
+; Isi Doa Copyright (C) 2018 Suratku
 
 
 BITS 16
@@ -15,24 +15,24 @@ start:
     mov ax, 07C0h
     mov ds, ax
 
-    ; Tampilkan Puisi
+    ; Tampilkan Doa
     call baris_baru
     call baris_baru
 
     mov si, kalimat1
-    call puisi
+    call doa
     call baris_baru
 
     mov si, kalimat2
-    call puisi
+    call doa
     call baris_baru
 
     mov si, kalimat3
-    call puisi
+    call doa
     call baris_baru
 
     mov si, kalimat4
-    call puisi
+    call doa
     call baris_baru
 
     call baris_baru
@@ -49,7 +49,7 @@ start:
     kalimat4 db 'Dan Penghilang Keresahanku ', 0
 
 
-puisi:		; Fungsi untuk mem print
+doa:		; Fungsi untuk mem print
     mov ah, 0Eh
 
 .repeat:
